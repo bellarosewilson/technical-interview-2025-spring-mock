@@ -10,7 +10,7 @@ You’ve been hired as a developer for a new coffee shop. Your job is to debug t
    - Log when an order cannot be fulfilled due to insufficient supplies (e.g., `❌ Insufficient supplies for Small Espresso`)
    - Log when all orders are complete (e.g., `🏁 There are 0 orders remaining!`)
 
-Expected Output:
+Expected Output: 
 
 ```bash
 ☕ Welcome to Java Haven!

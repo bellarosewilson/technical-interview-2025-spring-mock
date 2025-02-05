@@ -7,6 +7,6 @@ class Coffee
   end
   
   def description
-    "#{sie} #{type.capitalize}"
+    "#{size.capitalize} #{type.capitalize}"
   end
 end
