@@ -16,7 +16,7 @@ class CoffeeShop
   def fulfill_orders
     puts "🔄 Fulfilling orders..."
 
-    orders.each do |coffee|
+    @orders.each do |coffee|
       if !@inventory.has_enough_supplies?(1)
         @inventory.use_supplies(1)
         puts "✅ Fulfilled order for #{coffee.description}"
@@ -25,7 +25,7 @@ class CoffeeShop
       end
     end
 
-    orders.clean_up
+    @orders.clear
   end
 
   private
