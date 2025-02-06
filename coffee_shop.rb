@@ -7,7 +7,7 @@ class CoffeeShop
     @inventory = Inventory.new
   end
 
-  def self.lace_order(type, size)
+  def place_order(type, size)
     coffee = Coffee.new(type, size) 
     puts "📖 Placed order for a #{coffee.description}"  
     @orders.push(coffee)
