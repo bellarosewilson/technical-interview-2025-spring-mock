@@ -6,4 +6,5 @@ puts "☕ Welcome to Java Haven!"
 
 shop.place_order("latte", "medium")
 
+
 shop.fulfill_orders
